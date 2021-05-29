@@ -1,36 +1,47 @@
-.menu{
-    display: flex;
-    justify-content: space-between;
+.menu {
+    display         : flex;
+    justify-content : space-between;
     background-color: black;
-    font-size: 20px;
-    font-family: sans-serif;
-    font-weight: 400;
-    color: white;
-    
+    font-size       : 20px;
+    font-family     : sans-serif;
+    font-weight     : 400;
+    color           : white;
+
+
 }
-body{
+
+body {
     background-color: whitesmoke;
+
 }
 
-.grid img{
-    display: flex;
-    
-    border: 2px solid black;
-    border-radius: 50px;
+.grid img {
+    display        : flex;
     justify-content: space-between;
+    border         : 2px solid black;
+    border-radius  : 50px;
+    
 }
 
-.origami{
-    
+.grid {
+    display        : flex;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+}
 
-   border-radius: 20px;
+.origami {
+
+
+    border-radius   : 20px;
     background-color: white;
 
-    width: 310px;
+    width          : 360px;
     justify-content: space-between;
 
-   
-    
+
+
 }
 
- 
+.bodyimg{
+    justify-content: center;
+}
